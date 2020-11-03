@@ -519,7 +519,6 @@ body {
   padding: 10px 15px;
   background: #fff;
   border: 1px solid #999;
-  border-bottom: none;
 }
 
 .add__city {
@@ -555,6 +554,9 @@ body {
   border-bottom: none;
   padding: 10px 100px 10px 15px;
   position: relative;
+}
+.city__info-item:first-child{
+  border-top: none;
 }
 
 .city__info-item:last-child {
